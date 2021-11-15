@@ -1,6 +1,9 @@
  SDK 说明：
  https://help.aliyun.com/document_detail/205671.html
- 
+
+ 从如下地址下载 iOS 版 SDK，解压并将整个deps文件夹放置在工程目录下
+  https://help.aliyun.com/document_detail/209979.html
+
  从如下地址下载 Android 版 SDK，解压并将相关aar拷贝到app/libs目录下
  https://help.aliyun.com/document_detail/209979.html
 
@@ -30,6 +33,16 @@
 
 如何替换测试环境：
 ```
+for iOS:
+// 替换下面的信息
+// app key
+#define DEMO_DEFAUT_APP_KEY @""
+// app id
+#define DEMO_DEFAULT_APP_ID @""
+// AppServer地址，用于获取登陆token
+#define DEMO_DEFAUT_TOKEN_URL @""
+
+for Android:
 public class Environments {
     // 替换下面的信息
     // app key

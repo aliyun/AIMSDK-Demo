@@ -1,0 +1,12 @@
+Pods/
+Podfile.lock
+build/
+deps/
+TaobaoEnv
+
+# Xcode
+.DS_Store
+*/build/*
+*.pbxuser
+!default.pbxuser
+xcuserdata

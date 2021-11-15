@@ -1,0 +1,14 @@
+project 'iOS-AIMSDK-Simple'
+workspace 'iOS-AIMSDK-Simple'
+
+platform :ios, '8.0'
+inhibit_all_warnings!
+
+target 'iOS-AIMSDK-Simple' do
+  pod 'libdps', :path => 'deps/'
+  pod 'libaim', :path => 'deps/'
+  pod 'gaea', :path => 'deps/'
+  pod 'dmojo_support', :path => 'deps/'
+  pod 'xlite', :path => 'deps/'
+  pod 'OpenSSL', :path => 'deps/'
+end
