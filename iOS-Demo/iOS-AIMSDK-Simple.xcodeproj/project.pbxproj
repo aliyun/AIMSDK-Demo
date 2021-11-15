@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9926C398BA96097D1E049462 /* libPods-iOS-AIMSDK-Simple.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4572E18223C7551C9A87E2C8 /* libPods-iOS-AIMSDK-Simple.a */; };
+		BCDD05072600E7D200F110DB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BCDD05062600E7D200F110DB /* libc++.tbd */; };
+		F226655724A055D100A8FAD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F226655624A055D100A8FAD5 /* AppDelegate.m */; };
+		F226655D24A055D100A8FAD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F226655C24A055D100A8FAD5 /* ViewController.m */; };
+		F226656024A055D100A8FAD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F226655E24A055D100A8FAD5 /* Main.storyboard */; };
+		F226656224A055D400A8FAD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F226656124A055D400A8FAD5 /* Assets.xcassets */; };
+		F226656524A055D400A8FAD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F226656324A055D400A8FAD5 /* LaunchScreen.storyboard */; };
+		F226656824A055D400A8FAD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F226656724A055D400A8FAD5 /* main.m */; };
+		F226657024A0A18300A8FAD5 /* AIMSimpleEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = F226656F24A0A18300A8FAD5 /* AIMSimpleEngine.m */; };
+		F226657424A0A3BD00A8FAD5 /* AIMSimpleManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F226657324A0A3BD00A8FAD5 /* AIMSimpleManager.m */; };
+		F226657724A0AA4700A8FAD5 /* AIMEnvironmentConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = F226657624A0AA4700A8FAD5 /* AIMEnvironmentConfiguration.m */; };
+		F226657E24A190FE00A8FAD5 /* AIMSimpleManagerContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = F226657D24A190FE00A8FAD5 /* AIMSimpleManagerContainer.m */; };
+		F226658124A2F11A00A8FAD5 /* AIMSimpleConversationService.m in Sources */ = {isa = PBXBuildFile; fileRef = F226658024A2F11A00A8FAD5 /* AIMSimpleConversationService.m */; };
+		F226658424A81EC200A8FAD5 /* AIMSimpleMessageService.m in Sources */ = {isa = PBXBuildFile; fileRef = F226658324A81EC100A8FAD5 /* AIMSimpleMessageService.m */; };
+		F226658724A98D5200A8FAD5 /* AIMSimpleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = F226658624A98D5200A8FAD5 /* AIMSimpleLogger.m */; };
+		F23BA0D224EACDA400F1084D /* AIMSimpleContainerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F23BA0B724EAB53F00F1084D /* AIMSimpleContainerTests.m */; };
+		F23BA0D624EACE0700F1084D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23BA0D524EACE0700F1084D /* XCTest.framework */; };
+		F23BA0DA24EB83E700F1084D /* libaim.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F23BA0D724EB76CA00F1084D /* libaim.framework */; };
+		F23BA0E624ED48D300F1084D /* NSNotificationCenter+PostNotificationWithKeyAndValue.m in Sources */ = {isa = PBXBuildFile; fileRef = F23BA0E524ED48D300F1084D /* NSNotificationCenter+PostNotificationWithKeyAndValue.m */; };
+		F297C34E24BC2E0D0099B3B4 /* AIMPubMessage+messageContent.m in Sources */ = {isa = PBXBuildFile; fileRef = F297C34D24BC2E0D0099B3B4 /* AIMPubMessage+messageContent.m */; };
+		F2A037D324BB361900F198B0 /* AIMSimpleViewPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F2A037D224BB361900F198B0 /* AIMSimpleViewPresenter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F23BA0BA24EAB53F00F1084D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F226654A24A055D100A8FAD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F226655124A055D100A8FAD5;
+			remoteInfo = "iOS-AIMSDK-Simple";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D15AB220872C089D5D50466 /* Pods-iOS-AIMSDK-Simple.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-AIMSDK-Simple.release.xcconfig"; path = "Target Support Files/Pods-iOS-AIMSDK-Simple/Pods-iOS-AIMSDK-Simple.release.xcconfig"; sourceTree = "<group>"; };
+		4572E18223C7551C9A87E2C8 /* libPods-iOS-AIMSDK-Simple.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-AIMSDK-Simple.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		691C24F529B4DF5FB9C96FD3 /* Pods-iOS-AIMSDK-Simple-iOS-AIMSDK-SimpleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-AIMSDK-Simple-iOS-AIMSDK-SimpleTests.release.xcconfig"; path = "Target Support Files/Pods-iOS-AIMSDK-Simple-iOS-AIMSDK-SimpleTests/Pods-iOS-AIMSDK-Simple-iOS-AIMSDK-SimpleTests.release.xcconfig"; sourceTree = "<group>"; };
+		7AC46417267CE1C30CA5F788 /* Pods-iOS-AIMSDK-Simple.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-AIMSDK-Simple.debug.xcconfig"; path = "Target Support Files/Pods-iOS-AIMSDK-Simple/Pods-iOS-AIMSDK-Simple.debug.xcconfig"; sourceTree = "<group>"; };
+		BCDD05062600E7D200F110DB /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		C26DD0E1D58652B49A877187 /* Pods-iOS-AIMSDK-Simple-iOS-AIMSDK-SimpleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-AIMSDK-Simple-iOS-AIMSDK-SimpleTests.debug.xcconfig"; path = "Target Support Files/Pods-iOS-AIMSDK-Simple-iOS-AIMSDK-SimpleTests/Pods-iOS-AIMSDK-Simple-iOS-AIMSDK-SimpleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F20D5DFF24E3EE6700A1FA4E /* AIMManagerContainerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIMManagerContainerDelegate.h; sourceTree = "<group>"; };
+		F226655224A055D100A8FAD5 /* iOS-AIMSDK-Simple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-AIMSDK-Simple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F226655524A055D100A8FAD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F226655624A055D100A8FAD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F226655B24A055D100A8FAD5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F226655C24A055D100A8FAD5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F226655F24A055D100A8FAD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F226656124A055D400A8FAD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F226656424A055D400A8FAD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F226656624A055D400A8FAD5 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		F226656724A055D400A8FAD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F226656E24A0A18300A8FAD5 /* AIMSimpleEngine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIMSimpleEngine.h; sourceTree = "<group>"; };
+		F226656F24A0A18300A8FAD5 /* AIMSimpleEngine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIMSimpleEngine.m; sourceTree = "<group>"; };
+		F226657224A0A3BD00A8FAD5 /* AIMSimpleManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIMSimpleManager.h; sourceTree = "<group>"; };
+		F226657324A0A3BD00A8FAD5 /* AIMSimpleManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIMSimpleManager.m; sourceTree = "<group>"; };
+		F226657524A0A3E000A8FAD5 /* AIMEnvironmentConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIMEnvironmentConfiguration.h; sourceTree = "<group>"; };
+		F226657624A0AA4700A8FAD5 /* AIMEnvironmentConfiguration.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIMEnvironmentConfiguration.m; sourceTree = "<group>"; };
+		F226657824A0C65A00A8FAD5 /* AIMSimpleDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIMSimpleDefines.h; sourceTree = "<group>"; };
+		F226657C24A190FD00A8FAD5 /* AIMSimpleManagerContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIMSimpleManagerContainer.h; sourceTree = "<group>"; };
+		F226657D24A190FE00A8FAD5 /* AIMSimpleManagerContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIMSimpleManagerContainer.m; sourceTree = "<group>"; };
+		F226657F24A2F11A00A8FAD5 /* AIMSimpleConversationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIMSimpleConversationService.h; sourceTree = "<group>"; };
+		F226658024A2F11A00A8FAD5 /* AIMSimpleConversationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIMSimpleConversationService.m; sourceTree = "<group>"; };
+		F226658224A81EC100A8FAD5 /* AIMSimpleMessageService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIMSimpleMessageService.h; sourceTree = "<group>"; };
+		F226658324A81EC100A8FAD5 /* AIMSimpleMessageService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIMSimpleMessageService.m; sourceTree = "<group>"; };
+		F226658524A98D5200A8FAD5 /* AIMSimpleLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIMSimpleLogger.h; sourceTree = "<group>"; };
+		F226658624A98D5200A8FAD5 /* AIMSimpleLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIMSimpleLogger.m; sourceTree = "<group>"; };
+		F23BA0B524EAB53F00F1084D /* iOS-AIMSDK-SimpleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-AIMSDK-SimpleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F23BA0B724EAB53F00F1084D /* AIMSimpleContainerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIMSimpleContainerTests.m; sourceTree = "<group>"; };
+		F23BA0B924EAB53F00F1084D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F23BA0D524EACE0700F1084D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F23BA0D724EB76CA00F1084D /* libaim.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libaim.framework; path = Pods/aimsdk4ios/libaim.framework; sourceTree = "<group>"; };
+		F23BA0E424ED48D300F1084D /* NSNotificationCenter+PostNotificationWithKeyAndValue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+PostNotificationWithKeyAndValue.h"; sourceTree = "<group>"; };
+		F23BA0E524ED48D300F1084D /* NSNotificationCenter+PostNotificationWithKeyAndValue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+PostNotificationWithKeyAndValue.m"; sourceTree = "<group>"; };
+		F23BA0EF24EE044E00F1084D /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		F23BA0F024EE044E00F1084D /* OCMVerifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMVerifier.h; sourceTree = "<group>"; };
+		F23BA0F124EE044E00F1084D /* OCMFunctions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMFunctions.h; sourceTree = "<group>"; };
+		F23BA0F224EE044E00F1084D /* OCMStubRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMStubRecorder.h; sourceTree = "<group>"; };
+		F23BA0F324EE044E00F1084D /* OCMRecorder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMRecorder.h; sourceTree = "<group>"; };
+		F23BA0F424EE044E00F1084D /* OCMQuantifier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMQuantifier.h; sourceTree = "<group>"; };
+		F23BA0F524EE044E00F1084D /* OCMLocation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMLocation.h; sourceTree = "<group>"; };
+		F23BA0F624EE044E00F1084D /* OCMConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		F23BA0F724EE044E00F1084D /* OCMArg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		F297C34C24BC2E0D0099B3B4 /* AIMPubMessage+messageContent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AIMPubMessage+messageContent.h"; sourceTree = "<group>"; };
+		F297C34D24BC2E0D0099B3B4 /* AIMPubMessage+messageContent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AIMPubMessage+messageContent.m"; sourceTree = "<group>"; };
+		F2A037D124BB361900F198B0 /* AIMSimpleViewPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AIMSimpleViewPresenter.h; sourceTree = "<group>"; };
+		F2A037D224BB361900F198B0 /* AIMSimpleViewPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIMSimpleViewPresenter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F226654F24A055D100A8FAD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCDD05072600E7D200F110DB /* libc++.tbd in Frameworks */,
+				9926C398BA96097D1E049462 /* libPods-iOS-AIMSDK-Simple.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23BA0B224EAB53F00F1084D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23BA0DA24EB83E700F1084D /* libaim.framework in Frameworks */,
+				F23BA0D624EACE0700F1084D /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F96823BD51751BE037E0A9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AC46417267CE1C30CA5F788 /* Pods-iOS-AIMSDK-Simple.debug.xcconfig */,
+				3D15AB220872C089D5D50466 /* Pods-iOS-AIMSDK-Simple.release.xcconfig */,
+				C26DD0E1D58652B49A877187 /* Pods-iOS-AIMSDK-Simple-iOS-AIMSDK-SimpleTests.debug.xcconfig */,
+				691C24F529B4DF5FB9C96FD3 /* Pods-iOS-AIMSDK-Simple-iOS-AIMSDK-SimpleTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		46022D510534E74D5DCC512E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCDD05062600E7D200F110DB /* libc++.tbd */,
+				F23BA0D524EACE0700F1084D /* XCTest.framework */,
+				F23BA10924EE05D400F1084D /* libOCMock.a */,
+				F23BA0D724EB76CA00F1084D /* libaim.framework */,
+				4572E18223C7551C9A87E2C8 /* libPods-iOS-AIMSDK-Simple.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F226654924A055D100A8FAD5 = {
+			isa = PBXGroup;
+			children = (
+				F226655424A055D100A8FAD5 /* iOS-AIMSDK-Simple */,
+				F23BA0E924EE044E00F1084D /* Mock */,
+				F23BA0B624EAB53F00F1084D /* iOS-AIMSDK-SimpleTests */,
+				F226655324A055D100A8FAD5 /* Products */,
+				0F96823BD51751BE037E0A9F /* Pods */,
+				46022D510534E74D5DCC512E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F226655324A055D100A8FAD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F226655224A055D100A8FAD5 /* iOS-AIMSDK-Simple.app */,
+				F23BA0B524EAB53F00F1084D /* iOS-AIMSDK-SimpleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F226655424A055D100A8FAD5 /* iOS-AIMSDK-Simple */ = {
+			isa = PBXGroup;
+			children = (
+				F226655524A055D100A8FAD5 /* AppDelegate.h */,
+				F226655624A055D100A8FAD5 /* AppDelegate.m */,
+				F226655B24A055D100A8FAD5 /* ViewController.h */,
+				F226655C24A055D100A8FAD5 /* ViewController.m */,
+				F226655E24A055D100A8FAD5 /* Main.storyboard */,
+				F226656124A055D400A8FAD5 /* Assets.xcassets */,
+				F226656324A055D400A8FAD5 /* LaunchScreen.storyboard */,
+				F226656624A055D400A8FAD5 /* Info.plist */,
+				F226656724A055D400A8FAD5 /* main.m */,
+				F297C35024BC8D110099B3B4 /* Utils */,
+				F297C34F24BC8CF10099B3B4 /* Extension */,
+				F297C35124BC8D4F0099B3B4 /* AIMBase */,
+				F226657124A0A1FC00A8FAD5 /* AIMService */,
+			);
+			path = "iOS-AIMSDK-Simple";
+			sourceTree = "<group>";
+		};
+		F226657124A0A1FC00A8FAD5 /* AIMService */ = {
+			isa = PBXGroup;
+			children = (
+				F226657F24A2F11A00A8FAD5 /* AIMSimpleConversationService.h */,
+				F226658024A2F11A00A8FAD5 /* AIMSimpleConversationService.m */,
+				F226658224A81EC100A8FAD5 /* AIMSimpleMessageService.h */,
+				F226658324A81EC100A8FAD5 /* AIMSimpleMessageService.m */,
+				F226657524A0A3E000A8FAD5 /* AIMEnvironmentConfiguration.h */,
+				F226657624A0AA4700A8FAD5 /* AIMEnvironmentConfiguration.m */,
+				F226657824A0C65A00A8FAD5 /* AIMSimpleDefines.h */,
+			);
+			name = AIMService;
+			sourceTree = "<group>";
+		};
+		F23BA0B624EAB53F00F1084D /* iOS-AIMSDK-SimpleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F23BA0B724EAB53F00F1084D /* AIMSimpleContainerTests.m */,
+				F23BA0B924EAB53F00F1084D /* Info.plist */,
+			);
+			path = "iOS-AIMSDK-SimpleTests";
+			sourceTree = "<group>";
+		};
+		F297C34F24BC8CF10099B3B4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F20D5DFF24E3EE6700A1FA4E /* AIMManagerContainerDelegate.h */,
+				F297C34C24BC2E0D0099B3B4 /* AIMPubMessage+messageContent.h */,
+				F297C34D24BC2E0D0099B3B4 /* AIMPubMessage+messageContent.m */,
+				F23BA0E424ED48D300F1084D /* NSNotificationCenter+PostNotificationWithKeyAndValue.h */,
+				F23BA0E524ED48D300F1084D /* NSNotificationCenter+PostNotificationWithKeyAndValue.m */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		F297C35024BC8D110099B3B4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F2A037D124BB361900F198B0 /* AIMSimpleViewPresenter.h */,
+				F2A037D224BB361900F198B0 /* AIMSimpleViewPresenter.m */,
+				F226658524A98D5200A8FAD5 /* AIMSimpleLogger.h */,
+				F226658624A98D5200A8FAD5 /* AIMSimpleLogger.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		F297C35124BC8D4F0099B3B4 /* AIMBase */ = {
+			isa = PBXGroup;
+			children = (
+				F226656E24A0A18300A8FAD5 /* AIMSimpleEngine.h */,
+				F226656F24A0A18300A8FAD5 /* AIMSimpleEngine.m */,
+				F226657C24A190FD00A8FAD5 /* AIMSimpleManagerContainer.h */,
+				F226657D24A190FE00A8FAD5 /* AIMSimpleManagerContainer.m */,
+				F226657224A0A3BD00A8FAD5 /* AIMSimpleManager.h */,
+				F226657324A0A3BD00A8FAD5 /* AIMSimpleManager.m */,
+			);
+			name = AIMBase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F226655124A055D100A8FAD5 /* iOS-AIMSDK-Simple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F226656B24A055D400A8FAD5 /* Build configuration list for PBXNativeTarget "iOS-AIMSDK-Simple" */;
+			buildPhases = (
+				3BA173AC3764E9CB0B592ABE /* [CP] Check Pods Manifest.lock */,
+				F226654E24A055D100A8FAD5 /* Sources */,
+				F226654F24A055D100A8FAD5 /* Frameworks */,
+				F226655024A055D100A8FAD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-AIMSDK-Simple";
+			productName = "iOS-AIMSDK-Simple";
+			productReference = F226655224A055D100A8FAD5 /* iOS-AIMSDK-Simple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F23BA0B424EAB53F00F1084D /* iOS-AIMSDK-SimpleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F23BA0BC24EAB53F00F1084D /* Build configuration list for PBXNativeTarget "iOS-AIMSDK-SimpleTests" */;
+			buildPhases = (
+				F23BA0B124EAB53F00F1084D /* Sources */,
+				F23BA0B224EAB53F00F1084D /* Frameworks */,
+				F23BA0B324EAB53F00F1084D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F23BA0BB24EAB53F00F1084D /* PBXTargetDependency */,
+			);
+			name = "iOS-AIMSDK-SimpleTests";
+			productName = "iOS-AIMSDK-SimpleTests";
+			productReference = F23BA0B524EAB53F00F1084D /* iOS-AIMSDK-SimpleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F226654A24A055D100A8FAD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = Alibaba;
+				TargetAttributes = {
+					F226655124A055D100A8FAD5 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					F23BA0B424EAB53F00F1084D = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = F226655124A055D100A8FAD5;
+					};
+				};
+			};
+			buildConfigurationList = F226654D24A055D100A8FAD5 /* Build configuration list for PBXProject "iOS-AIMSDK-Simple" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F226654924A055D100A8FAD5;
+			productRefGroup = F226655324A055D100A8FAD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F226655124A055D100A8FAD5 /* iOS-AIMSDK-Simple */,
+				F23BA0B424EAB53F00F1084D /* iOS-AIMSDK-SimpleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F226655024A055D100A8FAD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F226656524A055D400A8FAD5 /* LaunchScreen.storyboard in Resources */,
+				F226656224A055D400A8FAD5 /* Assets.xcassets in Resources */,
+				F226656024A055D100A8FAD5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23BA0B324EAB53F00F1084D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3BA173AC3764E9CB0B592ABE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOS-AIMSDK-Simple-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F226654E24A055D100A8FAD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F226655D24A055D100A8FAD5 /* ViewController.m in Sources */,
+				F226658724A98D5200A8FAD5 /* AIMSimpleLogger.m in Sources */,
+				F226657024A0A18300A8FAD5 /* AIMSimpleEngine.m in Sources */,
+				F226655724A055D100A8FAD5 /* AppDelegate.m in Sources */,
+				F226658424A81EC200A8FAD5 /* AIMSimpleMessageService.m in Sources */,
+				F226656824A055D400A8FAD5 /* main.m in Sources */,
+				F297C34E24BC2E0D0099B3B4 /* AIMPubMessage+messageContent.m in Sources */,
+				F226657724A0AA4700A8FAD5 /* AIMEnvironmentConfiguration.m in Sources */,
+				F226658124A2F11A00A8FAD5 /* AIMSimpleConversationService.m in Sources */,
+				F226657E24A190FE00A8FAD5 /* AIMSimpleManagerContainer.m in Sources */,
+				F23BA0E624ED48D300F1084D /* NSNotificationCenter+PostNotificationWithKeyAndValue.m in Sources */,
+				F226657424A0A3BD00A8FAD5 /* AIMSimpleManager.m in Sources */,
+				F2A037D324BB361900F198B0 /* AIMSimpleViewPresenter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F23BA0B124EAB53F00F1084D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F23BA0D224EACDA400F1084D /* AIMSimpleContainerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F23BA0BB24EAB53F00F1084D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F226655124A055D100A8FAD5 /* iOS-AIMSDK-Simple */;
+			targetProxy = F23BA0BA24EAB53F00F1084D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F226655E24A055D100A8FAD5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F226655F24A055D100A8FAD5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F226656324A055D400A8FAD5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F226656424A055D400A8FAD5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F226656924A055D400A8FAD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F226656A24A055D400A8FAD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F226656C24A055D400A8FAD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AC46417267CE1C30CA5F788 /* Pods-iOS-AIMSDK-Simple.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KTWHB3SHL5;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
+				EXCLUDED_ARCHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(PROJECT_DIR)/deps/libaim.framework/Headers/**",
+					"$(PROJECT_DIR)/deps/libdps.framework/Headers/**",
+				);
+				INFOPLIST_FILE = "iOS-AIMSDK-Simple/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mock",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taobao.taobao4iphone.beta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F226656D24A055D400A8FAD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D15AB220872C089D5D50466 /* Pods-iOS-AIMSDK-Simple.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KTWHB3SHL5;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
+				EXCLUDED_ARCHS = "";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/BabaSSL\"",
+					"\"$(PODS_ROOT)/BabaSSL/include\"",
+					"\"${PODS_ROOT}/${GAEA_NETWORK_POD_NAME}/include\"",
+					"\"${PODS_ROOT}/${GAEA_NETWORK_POD_NAME}/src\"",
+					"\"${PODS_ROOT}/${GAEA_NETWORK_POD_NAME}/${GAEA_NETWORK_POD_NAME}.framework/Headers\"",
+					"\"$(SRCROOT)/Pods/dps4ios/libdps.framework/Headers\"",
+				);
+				INFOPLIST_FILE = "iOS-AIMSDK-Simple/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mock",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taobao.taobao4iphone.beta;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F23BA0BD24EAB53F00F1084D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/aimsdk4ios",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/${GAEA_NETWORK_POD_NAME}/include\"",
+					"\"${PODS_ROOT}/${GAEA_NETWORK_POD_NAME}/src\"",
+					"\"${PODS_ROOT}/${GAEA_NETWORK_POD_NAME}/${GAEA_NETWORK_POD_NAME}.framework/Headers\"",
+					"\"${PODS_ROOT}/${GAEA_NETWORK_POD_NAME}/${GAEA_NETWORK_POD_NAME}.framework/Headers/gaea/lwp\"",
+					"$(PROJECT_DIR)/Mock",
+				);
+				INFOPLIST_FILE = "iOS-AIMSDK-SimpleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOS-AIMSDK-Simple/iOS\\ library",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Alibaba-DingTalk.iOS-AIMSDK-SimpleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-AIMSDK-Simple.app/iOS-AIMSDK-Simple";
+			};
+			name = Debug;
+		};
+		F23BA0BE24EAB53F00F1084D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/aimsdk4ios",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/${GAEA_NETWORK_POD_NAME}/include\"",
+					"\"${PODS_ROOT}/${GAEA_NETWORK_POD_NAME}/src\"",
+					"\"${PODS_ROOT}/${GAEA_NETWORK_POD_NAME}/${GAEA_NETWORK_POD_NAME}.framework/Headers\"",
+					"\"${PODS_ROOT}/${GAEA_NETWORK_POD_NAME}/${GAEA_NETWORK_POD_NAME}.framework/Headers/gaea/lwp\"",
+					"$(PROJECT_DIR)/Mock",
+				);
+				INFOPLIST_FILE = "iOS-AIMSDK-SimpleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iOS-AIMSDK-Simple/iOS\\ library",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "The-Alibaba-DingTalk.iOS-AIMSDK-SimpleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-AIMSDK-Simple.app/iOS-AIMSDK-Simple";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F226654D24A055D100A8FAD5 /* Build configuration list for PBXProject "iOS-AIMSDK-Simple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F226656924A055D400A8FAD5 /* Debug */,
+				F226656A24A055D400A8FAD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F226656B24A055D400A8FAD5 /* Build configuration list for PBXNativeTarget "iOS-AIMSDK-Simple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F226656C24A055D400A8FAD5 /* Debug */,
+				F226656D24A055D400A8FAD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F23BA0BC24EAB53F00F1084D /* Build configuration list for PBXNativeTarget "iOS-AIMSDK-SimpleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F23BA0BD24EAB53F00F1084D /* Debug */,
+				F23BA0BE24EAB53F00F1084D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F226654A24A055D100A8FAD5 /* Project object */;
+}
